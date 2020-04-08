@@ -47,9 +47,7 @@
                 });
         }
         fetchSimpsonQuoteJSON();
-        document.querySelector('#reloadBtn').addEventListener("click", function() {
-            fetchSimpsonQuoteJSON();
-        });
+        document.querySelector('#reloadBtn').addEventListener("click", fetchSimpsonQuoteJSON);
     </script>
 </body>
 
